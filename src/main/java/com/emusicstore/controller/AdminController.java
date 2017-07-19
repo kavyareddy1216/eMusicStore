@@ -38,6 +38,11 @@ public class AdminController {
         model.addAttribute("products", products);
         return "productinventory";
     }
+
+
+
+    
+
     @RequestMapping("/admin/productinventory/addproduct")
     public String addProduct(Model model){
         Product product = new Product();
